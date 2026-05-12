@@ -53,12 +53,12 @@ export const Game = ({ gameToggle }: GameProps) => {
             }
         };
 
-        window.addEventListener("keydown", handleKeyDown);
-        window.addEventListener("keyup", handleKeyUp);
+        canvasRef.current?.addEventListener("keydown", handleKeyDown);
+        canvasRef.current?.addEventListener("keyup", handleKeyUp);
 
         return () => {
-            window.removeEventListener("keydown", handleKeyDown);
-            window.removeEventListener("keyup", handleKeyUp);
+            canvasRef.current?.removeEventListener("keydown", handleKeyDown);
+            canvasRef.current?.removeEventListener("keyup", handleKeyUp);
         };
     }, [gameToggle]);
 
