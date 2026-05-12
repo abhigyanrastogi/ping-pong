@@ -4,6 +4,7 @@ import federation from '@originjs/vite-plugin-federation'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/projects/ping-pong/',
   plugins: [
     react(),
     federation({
