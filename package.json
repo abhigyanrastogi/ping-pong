@@ -11,13 +11,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@module-federation/vite": "^1.15.4",
     "bootstrap": "^5.3.8",
     "react": "^19.2.6",
     "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@originjs/vite-plugin-federation": "^1.4.1",
     "@types/node": "^24.12.3",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
