@@ -4,11 +4,7 @@ import { federation } from '@module-federation/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/',
-  preview: {
-    port: 5174,
-    cors: true,
-  },
+  base: '/projects/ping-pong/',
   plugins: [
     react(),
     federation({
