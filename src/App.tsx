@@ -1,11 +1,11 @@
 import './App.css'
-import { Game } from './components/Game'
+import { GameContainer } from './components/GameContainer'
 
 function App() {
   return (
     <>
       <div className='d-flex justify-content-center align-items-center vh-100'>
-        <Game />
+        <GameContainer />
       </div>
     </>
   )
